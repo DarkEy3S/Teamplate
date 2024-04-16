@@ -1,7 +1,12 @@
-"use strict"
+import * as flsWebpFunction from './modules/webfunctions.js';
 
-import { comeAlert } from "./modules/function.js"
-import * as flsWebpFunction from "./modules/webfunctions.js"
+import * as flsError from './modules/Error.js';
+import { learnJS } from './modules/LearnJS.js';
+import { goodVsEvil } from './modules/game.js';
 
-comeAlert()
-flsWebpFunction.isWebp()
+learnJS();
+
+flsError.funError();
+flsWebpFunction.isWebp();
+
+// console.log(goodVsEvil('1 0 0 0 0 5', '1 0 0 0 0 0 0'));
