@@ -8,6 +8,7 @@
 dist/
 node_modules/
 package-lock.json
+yarn.lock
 
 # Файлы, используемые для локальной разработки
 ftp.js
